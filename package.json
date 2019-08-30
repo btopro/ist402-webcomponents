@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@lrnwebcomponents/air-horn": "^2.1.4",
     "@lrnwebcomponents/deduping-fix": "^2.1.1",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-icons": "3.0.1",
