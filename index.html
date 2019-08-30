@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+        <script src="/node_modules/@lrnwebcomponents/deduping-fix/deduping-fix.js"></script>
+
+    <title>LitElement + Polymer + VanillaJS Example</title>
+    <style>
+      html {
+        --paper-card-header-color: #FFFFFF;
+      }
+      paper-button {
+        color: blue;
+        background-color: #CCCCCC;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus,
+      a:active {
+        text-decoration: underline;
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <play-ground>This will show up!</play-ground>
+    <button>Normal button</button>
+    <button onclick="alert('Whew, thanks');">Click mew</button>
+    <paper-button>No big deal</paper-button>
+    <a href="https://google.com" target="_blank">
+      <paper-button raised>Now raised w/ link</paper-button>
+    </a>
+    <a href="https://google.com" target="_blank">
+      <play-ground>
+        <paper-button>
+          But click me...
+        </paper-button>
+      </play-ground>
+    </a>
+    <play-ground>
+      <a href="https://google.com" target="_blank">
+        <paper-button>
+          But click me...
+        </paper-button>
+      </a>
+    </play-ground>
+</body>
+</html> 

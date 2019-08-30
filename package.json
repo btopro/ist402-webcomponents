@@ -1,0 +1,18 @@
+{
+  "name": "bbpkhi.run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@lrnwebcomponents/air-horn": "^2.1.4",
+    "@lrnwebcomponents/deduping-fix": "^2.1.1",
+    "@polymer/iron-icon": "3.0.1",
+    "@polymer/iron-icons": "3.0.1",
+    "@polymer/iron-list": "3.0.2",
+    "@polymer/paper-button": "3.0.1",
+    "@polymer/paper-card": "3.0.1",
+    "@polymer/paper-icon-button": "3.0.2",
+    "@polymer/polymer": "^3.3.0",
+    "@webcomponents/webcomponentsjs": "2.2.7",
+    "lit-element": "2.1.0"
+  }
+}
